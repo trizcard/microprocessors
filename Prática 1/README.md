@@ -4,7 +4,8 @@
 
 ### Código Assembly:
 
-```org 0000h
+```
+org 0000h
 
 inicio:
 	MOV A, #0Fh ; move o valor 0Fh para o acumulador de forma imediata (2 us)
@@ -27,7 +28,8 @@ inicio:
 	NOP ; consome um ciclo de clock (1 us)
 	JMP $	; segura o programa nessa linha (2 us)
 
-end ```
+end ´´´
+
 ### Respostas 
 (a) Tempo gasto em cada linha de instrução e tempo total em μs:
 
@@ -69,7 +71,8 @@ O valor que aparecerá no acumulador após a instrução "MOV A, @R1" é o valor
 
 ### Código Assembly:
 
-```ORG 00h
+```
+ORG 00h
 
 inicio:
 	MOV ACC, #2 ; move o valor 2 para o acumulador de maneira imediata
@@ -92,7 +95,7 @@ inicio:
 	MOV 52h, B ; move o valor do registrador B para a posição de memória 52h
 	
 	JMP inicio ; volta para o início do programa
-```
+´´´ 
 
 ### Resposta 
 
@@ -102,7 +105,8 @@ Quando você move o valor 4 para ACC e, em seguida, move o valor 3 para ACC, o b
 
 ### Código Assembly:
 
-```ORG 00h
+```
+ORG 00h
 
 inicio:
 	MOV ACC, #10010011b ; move o valor 10010011b para o acumulador de forma imediata
@@ -121,13 +125,14 @@ inicio:
 
 	SWAP A ; faz a troca dos nibbles do acumulador
 	JMP inicio ; faz o salto incondicional para o endereço inicio
-```
+´´´
 
 ## Exercício 4
 
 ### Código Assembly:
 
-```ORG 00h
+```
+ORG 00h
 JMP main
 ORG 33h
 
@@ -150,4 +155,4 @@ bloco3:
 	JMP main ;pula para main
 
 end
-```
+´´´	
