@@ -1,5 +1,8 @@
 # Relatório de Atividade
 
+Nome: Beatriz Cardoso de Oliveira
+NUSP: 12566400
+
 ## Exercício 1
 
 ### Código Assembly:
