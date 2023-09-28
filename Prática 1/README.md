@@ -28,7 +28,8 @@ inicio:
 	NOP ; consome um ciclo de clock (1 us)
 	JMP $	; segura o programa nessa linha (2 us)
 
-end ´´´
+end
+```
 
 ### Respostas 
 (a) Tempo gasto em cada linha de instrução e tempo total em μs:
