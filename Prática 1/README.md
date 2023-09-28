@@ -96,7 +96,7 @@ inicio:
 	MOV 52h, B ; move o valor do registrador B para a posição de memória 52h
 	
 	JMP inicio ; volta para o início do programa
-´´´ 
+```
 
 ### Resposta 
 
@@ -126,7 +126,7 @@ inicio:
 
 	SWAP A ; faz a troca dos nibbles do acumulador
 	JMP inicio ; faz o salto incondicional para o endereço inicio
-´´´
+```
 
 ## Exercício 4
 
@@ -156,4 +156,4 @@ bloco3:
 	JMP main ;pula para main
 
 end
-´´´	
+```
